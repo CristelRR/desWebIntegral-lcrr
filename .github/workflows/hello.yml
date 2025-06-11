@@ -15,3 +15,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Echo Terminal
         run: echo Hello, world!
+
+      #Agregar la fecha del sistema
+      - name: Fecha
+        run: date
